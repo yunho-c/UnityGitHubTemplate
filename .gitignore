@@ -122,6 +122,12 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
+# Ignore all .xsd files
+*.xsd
+
+# But re-include any .xsd file within the Assets folder
+!/Assets/**/*.xsd
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
